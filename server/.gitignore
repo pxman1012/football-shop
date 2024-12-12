@@ -1,0 +1,22 @@
+# Thư mục node_modules
+node_modules/
+package-lock.json
+
+# Thư mục .env chứa thông tin môi trường nhạy cảm
+.env
+
+# Thư mục logs
+logs/
+
+# Các file tạm thời của hệ điều hành
+.DS_Store
+
+# Thư mục build của ứng dụng Next.js
+.next/
+
+# Thư mục tạm của các IDE (VS Code, WebStorm...)
+.vscode/
+.idea/
+
+# Thư mục của Nodemon nếu có (tùy chọn)
+pids/
