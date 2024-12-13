@@ -9,6 +9,10 @@ app.use(express.json()); // Dùng express.json() thay thế body-parser
 let products = [
     { id: 1, name: 'Áo bóng đá CLB A', price: 300000, description: 'Áo chính hãng CLB A' },
     { id: 2, name: 'Giày bóng đá X', price: 1200000, description: 'Giày thể thao cho sân cỏ' },
+    { id: 3, name: 'Áo bóng đá CLB A', price: 300000, description: 'Áo chính hãng CLB A' },
+    { id: 4, name: 'Giày bóng đá X', price: 1200000, description: 'Giày thể thao cho sân cỏ' },
+    { id: 5, name: 'Áo bóng đá CLB A', price: 300000, description: 'Áo chính hãng CLB A' },
+    { id: 6, name: 'Giày bóng đá X', price: 1200000, description: 'Giày thể thao cho sân cỏ' },
 ];
 
 // Lấy danh sách sản phẩm
